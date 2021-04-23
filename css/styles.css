@@ -1,0 +1,118 @@
+body{
+height: 1500px;
+}
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: white;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 14px;
+  padding-bottom: 70px;
+}
+
+h4{
+    font-weight: normal;
+}
+
+.card-container{
+  overflow: hidden;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    left: 23%;
+    right: 3%;
+    bottom:10%;
+    top: 10%;
+
+}
+.containers{
+    width: 200px;
+    display: inline-block;
+    padding: 40px;
+height: 350px;
+}
+
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+  color: #ffd473;
+
+}
+
+.suvs{
+  background-color: hsl(184, 100%, 22%);
+  color: #26B5C0;
+
+}
+
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  color: #19B89D;
+
+}
+
+.sedansbtn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  border-style: none;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(31, 77%, 52%);
+  font-size: 15px;
+  background: #ffffff white;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.sedansbtn:hover {
+  background: hsl(31, 77%, 52%);
+  text-decoration: none;
+  border-color: white;
+  border: 2px solid;
+  color: white;
+}
+
+.suvsbtn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  border-style: none;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(184, 100%, 22%);
+  font-size: 15px;
+  background: #ffffff white;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.suvsbtn:hover {
+  border-color: white;
+  border: 2px solid;
+  color: white;
+  background: hsl(184, 100%, 22%);
+
+
+}
+
+.luxurybtn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  border-style: none;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(179, 100%, 13%);
+  font-size: 15px;
+  background: white;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.luxurybtn:hover {
+  background: hsl(179, 100%, 13%);
+  border-color: white;
+  border: 2px solid;
+  color: white;
+  text-decoration: none;
+}
