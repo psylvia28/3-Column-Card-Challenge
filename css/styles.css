@@ -20,18 +20,20 @@ h4 {
   font-weight: normal;
 }
 
-.attribution{
-height: 60px;
+.attribution {
+  height: 60px;
 }
 
 .card-container {
   overflow: hidden;
   border-radius: 6px;
   display: flex;
+  justify-content: center;
   flex-flow: row wrap;
   position: relative;
-  margin-top: 100px;
+  margin-top: 6.25em;
 }
+
 .containers {
   width: 200px;
   padding: 40px;
